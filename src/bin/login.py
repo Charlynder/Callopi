@@ -3,6 +3,7 @@ Callopi User Login
 Author: Christian Alvarez
 Date: 10/29/2023
 '''
+
 from getpass4 import getpass
 from utils import CUtils, FileConfig
 
@@ -29,21 +30,4 @@ class Login:
             print('Access denied')
             quit()
 
-    def Guilogin(username, password):
-        config = FileConfig()
-        count = 0
-
-        # check the data from the elements and compare the data from said element to the data in the credentials.yaml file
-        # if the credentials are valid allow the user access into thhe program
-        # if not deny them access
-        while count < 5:
-            if CUtils.checkUserValid(username, password):
-                return 2
-                break
-            else:
-                count += 1
-        else:
-            return -1
-            
-        
 
