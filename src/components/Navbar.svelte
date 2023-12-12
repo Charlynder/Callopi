@@ -5,13 +5,16 @@
 <style>
   /* Add your navbar styling here */
   nav {
-    background-color: #333;
+    background-color: #FCFCFD;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: #595a6465 0 0.3rem 0.333rem;
+    border-radius: 8px;
+    border: 1px solid #cbc;
   }
-
+  
   ul {
     list-style: none;
     display: flex;
@@ -35,7 +38,7 @@
   background-color: #FCFCFD;
   border-radius: 4px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   box-sizing: border-box;
   color: #36395A;
   cursor: pointer;
